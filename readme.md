@@ -5,7 +5,7 @@
 - **Nicholas Murray**
 - **Daniel Ji**
 
-- **We have decided to create a safe place for people to share the items they want to sell.**
+- **We have decided to create a safe place for people to share the items they want to sell. This is the Barter Circus.**
 
 - **https://github.com/rohansinha01/project-backend**
 - **Will add deployed site later**
