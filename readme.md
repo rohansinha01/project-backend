@@ -31,4 +31,4 @@
 | Show Item | /item/:id    | GET    | Renders a detailed page of the item |
 
 ## ERD (Entity Relationship Diagram)
-
+![Entity Relationship Diagram](https://i.imgur.com/TnrziHF.png)
