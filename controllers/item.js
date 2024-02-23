@@ -30,4 +30,22 @@ router.delete('/:id', async (req, res) => {
     }
 })
 
+// FIND THE ID AND SEARCH IN THUNDERCLIENT/POSTMAN
+router.get('/:id', async (req, res) => {
+    try {
+        res.json(await Item.findById(req.params.id))
+    } catch (error) {
+        console.log('Read the error message', error)
+    }
+})
+
+// UPDATE ROUTE
+router.put('/:id', async (req, res) => {
+    try {
+        res.json(await Item.findByIdAndUpdate(req.params.id, req.body))
+    } catch (error) {
+        console.log('Read the error message', error)
+    }
+})
+
 module.exports = router
