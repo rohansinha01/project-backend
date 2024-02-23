@@ -12,4 +12,22 @@ router.get('/', async (req, res) => {
     }
 })
 
+// CREATE ROUTE
+router.post('/', async (req, res) => {
+    try {
+        res.json(await Item.create(req.body))
+    } catch (error) {
+        console.log('Read the error message', error)
+    }
+})
+
+// DELETE ROUTE
+router.delete('/:id', async (req, res) => {
+    try {
+        res.json(await Item.findByIdAndDelete(req.params.id))
+    } catch (error) {
+        console.log('Read the error message', error)  
+    }
+})
+
 module.exports = router
