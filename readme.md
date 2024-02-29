@@ -5,10 +5,10 @@
 - **Nicholas Murray**
 - **Daniel Ji**
 
-- **We have decided to create a safe place for people to share the items they want to sell.**
+- **We have decided to create a safe place for people to share the items they want to sell. This is the Barter Circus.**
 
 - **https://github.com/rohansinha01/project-backend**
-- **Will add deployed site later**
+- **https://project-backend-mcq3.onrender.com/**
 - **https://trello.com/b/XTqwiMpU/unit3-project3**
 
 ## List of Dependencies
@@ -31,4 +31,4 @@
 | Show Item | /item/:id    | GET    | Renders a detailed page of the item |
 
 ## ERD (Entity Relationship Diagram)
-
+![Entity Relationship Diagram](https://i.imgur.com/TnrziHF.png)
